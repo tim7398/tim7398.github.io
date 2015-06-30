@@ -1,102 +1,73 @@
-<html>
-	<head>
-		<title> Contact Us</title>
-		<style type = "text/css">
-			* {margin:0;padding:0;}
-			A
-			{
-				text-decoration: none;
-			}
-			body
-			{
-				background-image: url(websitepicture.png);
-				/*background-color: lightgreen;*/
-				color: #000080;
-			}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-			#header
-			{
-				background-image: url(websiteheader.png);
-				height: 100px;
-				width:100%;
-			}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title> Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
 
-			.container
-			{
-				width: 1000px;
-				height: auto;
-				margin: 0 auto;
-			}
+<body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			#foryou
-			{
-				font-family: "Times New Roman", Times, serif;
-				font-weight: bold;
-				font-size: 250%
+      ga('create', 'UA-64413529-1', 'auto');
+      ga('send', 'pageview');
 
-			}
+  </script>
+  <!-- contains the tim and logos -->
+  <div id = "logo_container"> 
 
-				/*already used in the html section*/
-			#logoArea
-			{
-				/*width: 216px;
-				height: 100px;
-				background-image: url(logo.png);*/
-				float:left;
-			}
+    <div id = "name_container">
+        <a href = "index.html">Tim Qin</a>
+    </div>
+</div>
 
-			#navArea
-			{
-				width: 100px;
-				height:100px;
-				float:left;
-			}
+<!-- contains the menu options -->
+<div id= "menu_container">
+    <ul = "navigation_container">
+        <a href ="index.html"><li> Homepage </li></a>
+        <a  href = "about_me.html"><li id = "about_me"> About Me </li></a> <!-- remember put drop down option using javascript -->
+        <a href = "Contact_Us.html"><li >Contact Me </li></a> 
+        <a href = "experience.html" ><li id = "experience"> Experience </li></a>
 
-			#nav
-			{
-				list-style: none;
-			}
+    </ul>
+</div>
+<!-- main body -->
+<div id= "main_content"> 
+    <div id = "body_title">
+        <!-- contact forms -->
+        <div id = "contact_form">
+            <div id = "contact_header">
+                <h2> Contact Me </h2>
+            </div> 
+            <form action = "#" method ="post"> <!-- CHANGE ACTION TO PHP LATER -->
+                <input class = "required_name" type="text" name="fname" placeholder = "First Name" style="width:150px" required>
+                <input class = "required_name" type ="text" name="lname" placeholder = "Last Name" style = "width:150px" required><br>
+                <input id = "required_email" type="text" name="email" placeholder="Email" style = "width:300px" required><br>
+                <input id = "other_info" type ="text" name="optional_info" placeholder="Other Informations (Optional)" style = "width:300px"><br>
+                <textarea id = "required_comment" name="comment" placeholder = "Please Write Your Comments Here" required></textarea><br>
+                <input class ="submit_button" type = "submit" value = "Submit">
 
-			#nav a
-			{
-				color: teal;
-				text-decoration: none;
-			}
+            </form>
+        </div>
+    </div>
+    <div id ="side_content">
+        <h4> How to Reach Me </h4>
+        
+        <a href = "https://www.facebook.com/tim.qin.5"> <img alt = "Tim Qin Facebook" src ="https://df0fc1a6e5-custmedia.vresp.com/46349ee152/facebook_emblem_1281380153718.jpg"/> Facebook</a><br>
+        <a href = "mailto:tim7398@gmail.com?subject=Mail from TimQin.com"><img alt = "Email Tim Qin" src ="http://cdn.osxdaily.com/wp-content/uploads/2013/12/mail-iphone.jpg"/>Mail</a>
+        
+    </div>
+</div>
 
-			#nav li
-			{
-				float:left;
-				margin-left: 30px;
-				margin-top: 50px;
-				background-color: yellowgreen;
-				padding: 10px;
-				border: 1px solid;
-				border-radius: 5px;
-			}
-		</style>
-	</head>
 
-	<body>
-		<div id = "header">
-			<div class = "container">
-				<div id = "logoArea">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-					<img src="logo.png"
-					alt="Youtube Home"
-					width="216" height ="100" border="0"/>
-					</a>
-				</div>
-				<div id = "navArea"></div>
-					<ul id = "nav">
-					<a href = "Homepage.html"><li>Home Page</li></a>
-					<a href = "Tim's_page.html"><li>Tim&#39s page</li></a>
-					<a href = "Contact_Us.html"><li>contact us</li></a>
-					<a href = "Meg'sPage.html"><li>Meg&#39s page</li></a>
-					</br>
-					</br>
-					</ul>
 
-			</div>
 
-		</div> 
+</body>
+
+</html>
 
