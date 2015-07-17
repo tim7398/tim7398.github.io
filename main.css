@@ -37,7 +37,7 @@ body
 {
 	
 	font-size: 100px;
-	margin-top: 13%;
+	margin-top: 15%;
 	font-weight: bold;
 	letter-spacing:8px;
 	min-width: 1100px;
@@ -53,7 +53,7 @@ a
 
 #navigation_container 
 {
-	margin-top: 2%;
+	margin-top: -2%;
 
 }
 ul
