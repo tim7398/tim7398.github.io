@@ -1,8 +1,7 @@
 body,html
 {
 	
-	font-family: arial, serif,times,"Times New Roman";
-	color:#808080;
+	font-family: 'Libre Baskerville', serif;
 	text-align: center;
 	width: 100%;
 	padding: 0%;
@@ -24,15 +23,13 @@ body,html
 
 	display: inline-block;
 	margin-top: 75px;
-	font-size: 80px;
 	display: inline-block;
-	font-family: 'Arvo', serif;
-	text-shadow: -1px -1px 1px #fff, 3px 3px 1px #000;
-	color: red;
-	opacity: 0.5;
-	min-width:1000px;
+	color: black;
 	word-spacing: 5px;
-	letter-spacing: 5px;
+	font-size: 90px;
+	font-weight: bold;
+	letter-spacing:8px;
+	min-width: 1100px;
 }
 #menu_container
 {
@@ -68,7 +65,9 @@ li /*adjust this later, make more specific */
 	-webkit-box-shadow: 14px 15px 16px -6px rgba(189,185,189,1);
 	-moz-box-shadow: 14px 15px 16px -6px rgba(189,185,189,1);
 	box-shadow: 14px 15px 16px -6px rgba(189,185,189,1);
+	min-width: 122px;
 	color: #808080;
+
 	
 }
 
