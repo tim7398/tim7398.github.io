@@ -78,7 +78,7 @@ li:hover
 
 	border:solid rgb(128,128,128);
 	/*background:rgba(255,255,255,1.0);*/
-	background: rgba(160,160,160,0.4);
+	background: rgb(160,160,160);
 	-o-transition:.4s;
 	-ms-transition:.4s;
 	-moz-transition:.4s;
