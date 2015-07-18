@@ -58,6 +58,7 @@ body,html
 
 ul
 {
+
 	display: inline-block;
 	list-style: none;
 }
@@ -75,7 +76,8 @@ li /*adjust this later, make more specific */
 
 li:hover
 {
-	border:solid thick rgb(128,128,128);
+
+	border:solid rgb(128,128,128);
 	/*background:rgba(255,255,255,1.0);*/
 	background: rgba(160,160,160,0.4);
 	-o-transition:.4s;
@@ -188,8 +190,7 @@ overflow: hidden;
 	text-decoration: none;
 	color: black;
 	font-size:15px;
-	font-family: verdana;
-	text-shadow:5px 5px 10px black;
+	/*font-family: verdana;*/
 	margin-top: 20px;
 }
 #footer
