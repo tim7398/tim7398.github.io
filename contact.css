@@ -8,16 +8,31 @@ body,html
 	height: 100%;
 	margin: 0%;
 	line-height: 20px;
+	
+	background: url("image/boston.png") no-repeat fixed;
+	background-size: 100%;
 
 
 
 }
-
+#bg
+{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	z-index: -1000;
+	overflow: hidden;
+	top:0;
+	left:0;
+	background-repeat: no-repeat;
+}
 #logo_container
 {
 	height:150px;
-	background:rgb(215,215,215);
 
+		background:rgba(255,255,255,0.6);
 	padding-bottom: 0.5em;
 }
 
@@ -27,13 +42,14 @@ body,html
 	display: inline-block;
 	margin-top: 75px;
 	display: inline-block;
-	color: rgb(30,30,30);
+	color: black;
 	word-spacing: 5px;
 	font-size: 90px;
 	font-weight: bold;
 	letter-spacing:8px;
 	min-width: 1100px;
 	text-shadow:3px 5px 7px black;
+
 
 }
 #menu_container
@@ -48,6 +64,7 @@ body,html
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
+
 	
 	
 
@@ -67,13 +84,27 @@ li /*adjust this later, make more specific */
 	border: solid;
 	margin-left: 50px;
 	margin-right: 50px;
-	-webkit-box-shadow: 14px 15px 16px -6px rgba(189,185,189,1);
-	-moz-box-shadow: 14px 15px 16px -6px rgba(189,185,189,1);
-	box-shadow: 14px 15px 16px -6px rgba(189,185,189,1);
 	min-width: 122px;
-	color: #808080;
+	color: black;
 
 	
+}
+
+li:hover
+{
+	border:solid thick rgb(128,128,128);
+	/*background:rgba(255,255,255,1.0);*/
+	background: rgba(160,160,160,0.4);
+	-o-transition:.4s;
+	-ms-transition:.4s;
+	-moz-transition:.4s;
+	-webkit-transition:.4s;
+	transition:.4s;
+	-moz-transform: translate(-2px, -2px);
+	-ms-transform: translate(-2px, -2px);
+	-o-transform: translate(-2px, -2px);
+	-webkit-transform: translate(-2px, -2px);
+	transform: translate(-2px, -2px)
 }
 
 #name_container a
@@ -90,37 +121,22 @@ li /*adjust this later, make more specific */
 
 #main_content
 {
-	background-color: #F8F8F8;
-	border-top: solid thick #B8B8B8 ;
+
+	border: solid thick #B8B8B8 ;
 	width: 950px;
 	padding-left: 20px;
 	padding-right:20px;
 	margin-left: auto;
+	background:rgba(130,130,130,0.5);
 	margin-right: auto;
-	/*vertical-align: top;
-	border:#FFF solid thin;*/
+	
 	margin-top:20px;
-/*	z-index:10;
-margin-bottom:-35px;*/
+
+ 
+
 overflow: hidden;
 }
 
-
-/*figure out what these do*/
-/*#main_content.box{
-	width: 99%;
-	margin:0px;
-	padding:0px;
-	text-align:center;
-	background:url(/style/images/cloud-down.jpg);
-	background-size:cover;
-	background-attachment:fixed;
-	min-height:99%;
-}
-#body_title.box{
-	float:none;
-	width:750px;
-	}*/
 
 	#body_title
 	{
@@ -129,11 +145,11 @@ overflow: hidden;
 		margin:0px;
 		padding-left:30px; 
 		padding-bottom:40px;
-		color:#686868;
+		/*color:#686868;*/
 		font-family: georgia,times,"Times New Roman";
 		min-width: 500px;
 		max-width: 650px;
-		background-color: inherit;
+	
 	}
 	
 	#body_title h2
@@ -159,6 +175,7 @@ overflow: hidden;
 	#contact_header h2
 	{
 		height: 35px;
+		color: black;
 	}
 
 	#required_email
@@ -215,9 +232,11 @@ overflow: hidden;
 
 #footer
 {
-    position: fixed;     
+    position: relative;    
     text-align: center;    
     bottom: 0px; 
     width: 100%;
     font-size: 12px;
+    color: grey;
+
 }
