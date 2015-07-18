@@ -48,8 +48,12 @@ body
 {
 	/*background: black;*/
 	padding-top:1px;
-	margin-top: 15%;
+	
 
+}
+#Title
+{
+	margin-top: 7%;
 }
 #Title h1
 {
@@ -78,6 +82,7 @@ a
 ul
 {
 
+	margin-top: 13%;
 	list-style: none;
 	min-width: 1100px;
 
