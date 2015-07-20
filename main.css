@@ -26,10 +26,25 @@ body
 	-ms-transform:rotate(180deg);
 	transform:rotate(180deg);
 }
+#page_cover
+{
+	position: fixed;
+	background: rgba(30,144,255,0.6);
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	z-index: -500;
+	overflow: hidden;
+	top:0;
+	left:0;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
 #Title
 {
 	/*margin-top: 13%;*/
-	background:rgba(255,255,255,0.6);
+	background:rgba(30,144,255,0.6);
 	padding-bottom: 0.5em;
 	/*padding-top: 0.5em;	*/	
 }
@@ -51,6 +66,7 @@ body
 	min-width: 1100px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	color: white;
 	padding-top: 10px;
 }
 a 
@@ -70,20 +86,21 @@ ul
 #nav_bar li
 {
 	display: inline-block;
-	border:solid thick;
+	border:solid thick white;
 	padding: 20px 0px 20px 0px;
 	margin-right: 50px;
 	font-size: 20px;
 	font-weight: bold;
+	color: white;
 	min-width: 200px;
-  	background:rgba(255,255,255,0.6);	
+  	background: rgba(30,144,255,0.6);
 }
 
 #nav_bar li:hover
 {
-	border:solid thick rgb(128,128,128);
+	border:solid thick rgb(30,144,255);
 	/*background:rgba(255,255,255,1.0);*/
-	background: rgb(160,160,160);
+	background: rgb(30,144,255);
 	-o-transition:.4s;
 	-ms-transition:.4s;
 	-moz-transition:.4s;
