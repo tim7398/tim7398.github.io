@@ -8,9 +8,11 @@ body,html
 	height: 100%;
 	margin: 0%;
 	line-height: 20px;
+	
 }
 #bg
 {
+	background: url(image/boston.png);
 	position: fixed;
 	min-width: 100%;
 	min-height: 100%;
@@ -21,11 +23,12 @@ body,html
 	top:0;
 	left:0;
 	background-repeat: no-repeat;
+	background-size:cover;
 }
 #page_cover
 {
 	position: fixed;
-	background: rgba(30,144,255,0.6);
+	background: rgba(80,80,80,0.6);
 	min-width: 100%;
 	min-height: 100%;
 	height: auto;
