@@ -32,7 +32,7 @@ body
  #page_cover
 {
 	position: fixed;
-	background: rgba(8,64,129,0.4);
+	background: rgba(255,240,90,0.4);
 	min-width: 100%;
 	min-height: 100%;
 	height: auto;
@@ -102,7 +102,7 @@ a
 	position: relative;
 	display:inline-block;
 	/*background:rgb(30,144,255);*/
-	background:rgb(54,100,139);
+	background:rgb(255,240,90);
 	min-width:100%;
 	overflow: hidden;
 
@@ -135,7 +135,7 @@ a
 	color: white;
 	min-width: 200px;
   	/*background: rgb(30,144,255);*/
-  	background:rgb(54,100,139);
+  	background:rgb(255,240,90);
 	padding-left:25px;
 	padding-right:25px;
 }
@@ -145,7 +145,7 @@ a
 
 	/*border:solid thick rgb(30,144,255);*/
 	/*background:rgba(255,255,255,1.0);*/
-	background:rgb(54,110,170);
+	background:rgb(230,200,70);
 	-o-transition:.4s;
 	-ms-transition:.4s;
 	-moz-transition:.4s;
