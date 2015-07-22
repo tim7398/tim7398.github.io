@@ -23,7 +23,10 @@ body
 	background-repeat: no-repeat;
 	background-size:100%;
 	background-position:center;
-	
+	-webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+   
 
 }
  #page_cover
@@ -52,7 +55,7 @@ body
 }
 /*#container
 {
-	/*background: black;*/
+	background: black;
 	padding-top:1px;
 
 }*/
@@ -96,10 +99,11 @@ a
 
 #navigation_container
 {
+	position: relative;
 	display:inline-block;
 	background:rgb(30,144,255);
-	top:0;
 	min-width:100%;
+	overflow: hidden;
 
 }
 #nav_bar
@@ -110,10 +114,15 @@ a
 	float:right;
 	
 	
+	
 }
 #logo
 {
+	position: absolute;
 	float:left;
+	font-size: 2em;
+	top: 30%;
+	margin-left:1em;
 
 }
 #nav_bar li
