@@ -101,7 +101,8 @@ a
 {
 	position: relative;
 	display:inline-block;
-	background:rgb(30,144,255);
+	/*background:rgb(30,144,255);*/
+	background:rgb(54,100,139);
 	min-width:100%;
 	overflow: hidden;
 
@@ -128,14 +129,13 @@ a
 #nav_bar li
 {
 	display: inline-block;
-	/*border:solid thick white;*/
 	padding: 20px 0px 20px 0px;
-	/*margin-right: 50px;*/
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
 	min-width: 200px;
-  	background: rgb(30,144,255);
+  	/*background: rgb(30,144,255);*/
+  	background:rgb(54,100,139);
 	padding-left:25px;
 	padding-right:25px;
 }
@@ -145,7 +145,7 @@ a
 
 	/*border:solid thick rgb(30,144,255);*/
 	/*background:rgba(255,255,255,1.0);*/
-	background: rgb(30,160,255);
+	background:rgb(54,110,170);
 	-o-transition:.4s;
 	-ms-transition:.4s;
 	-moz-transition:.4s;
