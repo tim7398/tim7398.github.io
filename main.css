@@ -32,7 +32,9 @@ body
  #page_cover
 {
 	position: fixed;
-	background: rgba(255,240,90,0.4);
+	/*background: rgba(251,128,0,0.3);*/
+	/*background:rgba(32,32,32,0.5);*/
+	background:rgba(153,76,0,0.2);
 	min-width: 100%;
 	min-height: 100%;
 	height: auto;
@@ -83,6 +85,7 @@ body
 {
 font-size: 40px;
 	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
 	min-width: 1100px;
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -102,8 +105,12 @@ a
 	position: relative;
 	display:inline-block;
 	/*background:rgb(30,144,255);*/
-	background:rgb(255,240,90);
+	/*background:rgb(255,240,90);*/
+	background:rgb(251,128,0);
+	/*background: rgb(121,30,29);*/
 	min-width:100%;
+	max-height: 4em;
+	min-height: 4em;
 	overflow: hidden;
 
 }
@@ -113,6 +120,7 @@ a
 	list-style: none;
 	min-width: 1100px;
 	float:right;
+	/*max-height: 4em;*/
 	
 	
 	
@@ -126,16 +134,27 @@ a
 	margin-left:1em;
 
 }
+
+#nav_bar 
+{
+	position: relative;
+	/*background-color: black;*/
+	margin-top:0;
+}
 #nav_bar li
 {
 	display: inline-block;
-	padding: 20px 0px 20px 0px;
+	position: relative;
+font-family: 'Titillium Web', sans-serif;
+	/*padding: 20px 0px 20px 0px;*/
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
 	min-width: 200px;
-  	/*background: rgb(30,144,255);*/
-  	background:rgb(255,240,90);
+  	/*background: rgb(30,144,255); */ 
+  	background:rgb(251,128,0);
+  	/*background: rgb(121,30,29);*/
+  	padding-top: 20px;
 	padding-left:25px;
 	padding-right:25px;
 }
@@ -145,7 +164,8 @@ a
 
 	/*border:solid thick rgb(30,144,255);*/
 	/*background:rgba(255,255,255,1.0);*/
-	background:rgb(230,200,70);
+	background:rgb(255,153,51);
+	min-height: 100px;
 	-o-transition:.4s;
 	-ms-transition:.4s;
 	-moz-transition:.4s;
