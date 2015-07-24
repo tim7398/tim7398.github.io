@@ -61,12 +61,12 @@ body
 	padding-top:1px;
 
 }*/
-#Title
+.Title
 {
 	
 	
 }
-#Title h1
+.Title h1
 {
 	
 	font-size: 90px;
@@ -81,7 +81,7 @@ body
 	margin-top: 15%;
 }
 
-#Title p
+.Title p
 {
 font-size: 40px;
 	font-weight: bold;
@@ -135,6 +135,14 @@ a
 
 }
 
+.up_arrow
+{
+	position: absolute;       
+    bottom: 0px;     
+    left: 50%;
+    margin-left: -50px;
+     cursor: pointer;
+}
 #nav_bar 
 {
 	position: relative;
