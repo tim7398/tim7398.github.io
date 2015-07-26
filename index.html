@@ -8,8 +8,12 @@
 	<link rel ="stylesheet" type = "text/css" href="main.css"> 
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="favicon.ico?" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
+
+<!-- HAVE A BLUE COVER OVER EVERYTHING -->
 
 </head>
 
@@ -22,6 +26,9 @@
 		ga('create', 'UA-64413529-1', 'auto');
 		ga('send', 'pageview');
 	</script>
+	<div id = "down_arrow">
+		<i class="fa fa-chevron-left"></i>    Go Back
+		</div>
 	
 	<div class = "background-video">
 		<video id = "vid_bg"  preload = "auto" autoplay="true" loop="loop" muted="muted"> 
@@ -31,20 +38,35 @@
 
 		</video>
 	</div>
-	<div id = "container">
-		<div id = "Title">
-			<h1><a href="index.html"> Tim Qin </a></h1>
-		</div>	
+	<div id = "page_cover"></div>
+
 		<div id = "navigation_container">
+			<div id = "logo">   Tim Qin </div>
 <!-- add a hover color change -->
 			<ul id = "nav_bar"> 
-				<a href = "https://github.com/tim7398"><li>Github</li></a>
+				<a href = "https://github.com/tim7398"><li>Projects</li></a>
 				<li> About </li>
 				<li> Experience </li>
 				<a href = "contact.html"><li> Contact </li></a>
 
 			</ul>	
 		</div>
-	</div>	
+		<div class = "Title">
+			<h1><a href="index.html"> Tim Qin </a></h1>
+			<p id = "ce">Computer Engineer </p>
+		</div>	
+		
+		<div class = "up_arrow">
+			<i class="fa fa-arrow-up"></i>
+			<h3 id ="watch">Watch Video</h3>
+		</div>
+		
+
+	
+	
+    <script type ="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type ="text/javascript" src="jquery/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+     <!-- // <script type ="text/javascript" src="jquery/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script> -->
+    <script src="jquery/main.js"></script>
 	</body>
 	</html>
