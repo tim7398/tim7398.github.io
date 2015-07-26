@@ -1,11 +1,13 @@
 
 body
 {
+
 	font-family: 'Libre Baskerville', serif;
 	margin:0;
 	padding: 0;
 	color: white;
 	text-align: center;
+	overflow: hidden;
 	
 }
 .background-video video
@@ -135,13 +137,41 @@ a
 
 }
 
+
 .up_arrow
 {
 	position: absolute;       
     bottom: 0px;     
     left: 50%;
-    margin-left: -50px;
-     cursor: pointer;
+    margin-left: -75px;
+    cursor: pointer;
+    color:rgb(204,102,0);
+    bottom: -60px;
+}
+
+#watch
+{
+	position: relative;
+	top:100px;
+}
+
+/*.up_arrow:hover
+{
+	-o-transition:.4s;
+	-ms-transition:.4s;
+	-moz-transition:.4s;
+	-webkit-transition:.4s;
+	transition:.4s;
+	transform:translateY(-100px);
+}*/
+#down_arrow
+{
+	position: fixed;
+	/*position: absolute;*/
+	left:-100px;
+	color: rgb(204,102,0);
+	cursor: pointer; 
+	/*z-index: -100;*/
 }
 #nav_bar 
 {
