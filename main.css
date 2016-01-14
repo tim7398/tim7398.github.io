@@ -217,6 +217,57 @@ font-family: 'Titillium Web', sans-serif;
 	transform: translate(-2px, -2px)*/
  
 }
+/*about*/
+#nav_bar li#about:hover span#a
+{
+	display:inline;
+}
+#nav_bar li#about span#b
+{
+	display:inline;
+}
+#nav_bar li#about span#a
+{
+	display:none;
+}
+#nav_bar li#about:hover span#b
+{
+	display: none;
+}
+/*experience*/
+#nav_bar li#experience:hover span#a
+{
+	display:inline;
+}
+#nav_bar li#experience span#b
+{
+	display:inline;
+}
+#nav_bar li#experience:hover span#b
+{
+	display:none;
+}
+#nav_bar li#experience span#a
+{
+	display:none;
+}
+/* contact*/
+#nav_bar li#contact:hover span#a
+{
+	display:inline;
+}
+#nav_bar li#contact span#b
+{
+	display:inline;
+}
+#nav_bar li#contact:hover span#b
+{
+	display:none;
+}
+#nav_bar li#contact span#a
+{
+	display:none;
+}
 @keyframes up-bump {
   0% { margin-top: 2em; }
   50% { margin-top: 1.5em; }
