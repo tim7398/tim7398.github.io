@@ -106,14 +106,11 @@ a
 {
 	position: relative;
 	display:inline-block;
-	/*background:rgb(30,144,255);*/
-	/*background:rgb(255,240,90);*/
 	background:rgb(251,128,0);
-	/*background: rgb(121,30,29);*/
 	min-width:100%;
 	max-height: 4em;
 	min-height: 4em;
-	overflow: hidden;
+	/*overflow: hidden;*/
 
 }
 #nav_bar
@@ -121,6 +118,9 @@ a
 	/*margin-top: 7%;*/
 	list-style: none;
 	min-width: 1100px;
+	background: transparent;
+	min-height:63px;
+	max-height:63px;
 	float:right;
 	/*max-height: 4em;*/
 	
@@ -192,6 +192,8 @@ font-family: 'Titillium Web', sans-serif;
 	min-width: 200px;
   	/*background: rgb(30,144,255); */ 
   	background:rgb(251,128,0);
+	min-height:43px;
+	max-height:43px;
   	/*background: rgb(121,30,29);*/
   	padding-top: 20px;
 	padding-left:25px;
@@ -204,7 +206,6 @@ font-family: 'Titillium Web', sans-serif;
 	/*border:solid thick rgb(30,144,255);*/
 	/*background:rgba(255,255,255,1.0);*/
 	background:rgb(255,153,51);
-	min-height: 100px;
 	-o-transition:.4s;
 	-ms-transition:.4s;
 	-moz-transition:.4s;
@@ -217,40 +218,7 @@ font-family: 'Titillium Web', sans-serif;
 	transform: translate(-2px, -2px)*/
  
 }
-/*about*/
-#nav_bar li#about:hover span#a
-{
-	display:inline;
-}
-#nav_bar li#about span#b
-{
-	display:inline;
-}
-#nav_bar li#about span#a
-{
-	display:none;
-}
-#nav_bar li#about:hover span#b
-{
-	display: none;
-}
-/*experience*/
-#nav_bar li#experience:hover span#a
-{
-	display:inline;
-}
-#nav_bar li#experience span#b
-{
-	display:inline;
-}
-#nav_bar li#experience:hover span#b
-{
-	display:none;
-}
-#nav_bar li#experience span#a
-{
-	display:none;
-}
+ 
 /* contact*/
 #nav_bar li#contact:hover span#a
 {
@@ -268,6 +236,47 @@ font-family: 'Titillium Web', sans-serif;
 {
 	display:none;
 }
+
+/* project drop down*/
+#nav_bar li ul#project
+{
+	display:none;
+}
+#nav_bar li:hover > ul#project
+{
+	  display: block;
+    position: absolute;
+    margin-left: -65px;
+	margin-top:10px;
+}
+
+/*about drop down*/
+#nav_bar li ul#about_drop
+{
+	display:none;
+}
+#nav_bar li:hover > ul#about_drop
+{
+	  display: block;
+    position: absolute;
+    margin-left: -65px;
+	margin-top:10px;
+}
+
+/*experience drop down*/
+#nav_bar li ul#experience_drop
+{
+	display:none;
+}
+#nav_bar li:hover > ul#experience_drop
+{
+	  display: block;
+    position: absolute;
+    margin-left: -65px;
+	margin-top:10px;
+}
+
+
 @keyframes up-bump {
   0% { margin-top: 2em; }
   50% { margin-top: 1.5em; }
