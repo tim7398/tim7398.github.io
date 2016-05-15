@@ -381,7 +381,7 @@ font-size:100%;
 {
 	list-style-type:none;	
 }
-#main-text p
+#main-text .diff_p
 {
 	position:relative;
 	top:1.2em;
@@ -452,4 +452,60 @@ font-size:100%;
 	color:black;
 	position:relative;
 	text-align:center;	
+}
+
+#main-text #Prog
+{
+	max-width:28%;
+	min-width:27%;
+}
+
+.skills h2
+{
+	color:black;
+	text-align:left;
+	position:relative;
+	left:3em;
+	text-decoration:underline;	
+	max-width:30%;
+	min-width:29%;
+}
+.skills p
+{
+	position: relative;
+	color:black;
+	font-size:160%;
+	left:3em;
+	width:20%;
+	float:left;
+	
+}
+progress {
+	
+	width:50%;
+	height:4em;
+	padding:1em 0 0 0;
+	background:none;
+	border-radius:50px;
+	text-align: left;
+	position:relative;
+    font-size:15px;
+	
+	
+}
+progress::-webkit-progress-bar {
+	height:40px;
+	width:100%;
+	margin:0 auto;
+	background-color:#dadada;
+	border-radius:100px;
+}
+
+progress::-webkit-progress-value {
+
+	height:40px;
+	margin:0px -10px 0 0;
+    padding-left:50px; /* Rounded corners requires a padding */
+	background:#ff9e2c;
+	border-radius:100px;
 }
