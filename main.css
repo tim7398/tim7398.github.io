@@ -1,4 +1,5 @@
 
+
 body
 {
 
@@ -10,6 +11,11 @@ body
 	overflow: hidden;
 	
 }
+#second
+{
+	overflow:scroll;	
+}
+	
 .background-video video
 {
 	position: fixed;
@@ -237,6 +243,14 @@ font-family: 'Titillium Web', sans-serif;
 	display:none;
 }
 
+/* all drop down menu */
+
+#nav_bar li ul :hover /* color of children differen */
+{
+	background:rgba(240,104,0,1.00);
+}
+
+
 /* project drop down*/
 #nav_bar li ul#project
 {
@@ -281,4 +295,116 @@ font-family: 'Titillium Web', sans-serif;
   0% { margin-top: 2em; }
   50% { margin-top: 1.5em; }
   100% { margin-top: 2em; }
+}
+
+#main-text
+{
+	
+	border-style:solid;
+	top:2em;
+	z-index:-1000;
+	position:relative;
+	left:5%;
+	background:rgba(232,232,232,1.00);
+	min-height:auto;
+	min-width: 50%;
+	max-width:90%;
+	overflow:auto;
+	padding-bottom:5%;	
+	border-radius:3%;
+	
+}
+
+#main-text h1
+{
+	position:relative;
+	color:rgba(117,117,117,1.00);
+	text-align:left;
+	left-margin: 100px;
+	max-width:14%;
+	min-width:13%;
+	left:2%;
+	
+}
+
+#pic_me { 
+   position: relative; 
+   width: 25%; /* for IE 6 */
+   left:1em;
+   float:left;
+}
+
+
+#pic_me h2 { 
+display:relative;
+color:black;
+font-size:100%;
+}
+#pic_me #picture_aboutme
+{
+	width:100%;	
+	
+}
+
+
+#donut { 
+   position: relative; 
+   width: 25%; /* for IE 6 */
+   left:1em;
+   float:right;
+}
+
+
+#donut h2 { 
+display:relative;
+color:black;
+font-size:100%;
+}
+#donut #union_donut
+{
+	width:100%;	
+	
+}
+
+#list
+{
+	float:left;
+	text-align:left;
+	color:black;
+	line-height:200%;
+}
+#list #favorite_food
+{
+	text-decoration:underline;	
+}
+#list li
+{
+	list-style-type:none;	
+}
+#main-text p
+{
+	position:relative;
+	top:1.2em;
+	width:98%;
+	left:2%;
+	line-height:180%;
+	text-align:left;
+	color:black;
+	font-size:130%;
+}
+
+#list2
+{
+ float:right;
+ text-align:left;	
+ color:black;
+ line-height:200%;
+}
+#list2 li
+{
+	list-style-type:none;	
+}
+#list2 #favorite_places
+{
+	text-decoration:underline;	
 }
