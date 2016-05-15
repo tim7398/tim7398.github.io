@@ -243,6 +243,42 @@ font-family: 'Titillium Web', sans-serif;
 	display:none;
 }
 
+/* travels */
+
+#nav_bar li#about #travel:hover span#a
+{
+	display:inline;
+}
+#nav_bar li#about #travel span#b
+{
+	display:inline;
+}
+#nav_bar li#about #travel:hover span#b
+{
+	display:none;
+}
+#nav_bar li#about #travel span#a
+{
+	display:none;
+}
+/*recent assignments */
+#nav_bar li#project #Rec_assig:hover span#a
+{
+	display:inline;
+}
+#nav_bar li#project #Rec_assig span#b
+{
+	display:inline;
+}
+#nav_bar li#project #Rec_assig:hover span#b
+{
+	display:none;
+}
+#nav_bar li#project #Rec_assig span#a
+{
+	display:none;
+}
+
 /* all drop down menu */
 
 #nav_bar li ul :hover /* color of children differen */
