@@ -15,6 +15,12 @@ body
 {
 	overflow:scroll;	
 }
+
+#third
+{
+	overflow:scroll;
+	
+}
 	
 .background-video video
 {
@@ -243,24 +249,7 @@ font-family: 'Titillium Web', sans-serif;
 	display:none;
 }
 
-/* travels */
 
-#nav_bar li#about #travel:hover span#a
-{
-	display:inline;
-}
-#nav_bar li#about #travel span#b
-{
-	display:inline;
-}
-#nav_bar li#about #travel:hover span#b
-{
-	display:none;
-}
-#nav_bar li#about #travel span#a
-{
-	display:none;
-}
 /*recent assignments */
 #nav_bar li#project #Rec_assig:hover span#a
 {
@@ -544,4 +533,58 @@ progress::-webkit-progress-value {
     padding-left:50px; /* Rounded corners requires a padding */
 	background:#ff9e2c;
 	border-radius:100px;
+}
+#main-text-travel
+{
+	border-style:solid;
+	display:center;
+	top:8em;
+	z-index:-1000;
+	left:10%;
+	position:absolute;
+	background:rgba(232,232,232,1.00);
+	min-height:100%;
+	min-width: 80%;
+	
+	overflow:auto;
+	padding-bottom:5%;	
+	border-radius:3%;
+	
+}
+
+#main-text-travel h1
+{
+	color: 	rgba(117,117,117,1.00);
+	float:left;
+	left:2em;
+	position:relative;
+}
+#main-text-travel #map
+{
+	position: absolute; 
+	width: 75%; 
+	height: 75%;
+	left:12.5%;
+	right:12.5%;
+	top:15%;
+	z-index:1000;
+	
+}
+#main-text-travel p
+{
+	color:black;
+	position:absolute;
+	top:90%;
+	left:15%;
+	
+		
+}
+#main-text-travel ul
+{
+	color:black;
+	position:absolute;
+	top:95%;
+	left:12%;
+	
+		
 }
