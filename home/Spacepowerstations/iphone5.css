@@ -217,7 +217,7 @@ form
 #navigation_container
 {
 
-	background:white;
+	background:transparent;
 	min-width:100%;
 	position:fixed;
 	z-index: 1000;
@@ -256,7 +256,11 @@ form
 	padding-left:1em;
 	
 }
-
+#navigation_container #logo
+{
+	left:1em;
+	top:0.5em;
+}
 #navigation_container #title
 {
 	position:relative;
@@ -265,7 +269,13 @@ form
 	z-index: -1000;
 	
 }
-
+.icon-menu
+{
+	display: inline;
+	position: absolute;
+	left:-1em;
+	cursor: pointer;
+}
 #navigation_container img 
 {
 	width:50%;
@@ -291,9 +301,7 @@ form
 #navigation_container #all_university
 {
 	float:left;
-	right:1.7em;
-
-
+	right:0em;
 	top:1.5em;
 }
 #nav_bar
@@ -301,10 +309,12 @@ form
 	
 	max-width:30%;
 	min-width: 30%;
-	float:right;
-	line-height: 95%;
-	top:-3.2em;
+	float:left;
+	line-height: 80%;
+	top:-2.6em;
+	right:800px;
 	padding:0px;
+
 }
 #nav_bar a
 {
