@@ -104,7 +104,10 @@ html
 {
 	background:rgba(20,20,20,0.2);
 }
-
+.close
+{
+	display:none;
+}
 #company_logo a
 {
 	text-decoration:none;

@@ -277,6 +277,13 @@ form
 	left:-1em;
 	cursor: pointer;
 }
+.close
+{
+		
+	position: absolute;
+	left:-1em;
+	cursor: pointer;
+}
 #navigation_container img 
 {
 	width:50%;
@@ -312,7 +319,7 @@ form
 	min-width: 30%;
 	float:left;
 	line-height: 99%;
-	top:-2.3em;
+	top:-2.5em;
 	right:800px;
 	padding:0px;
 
