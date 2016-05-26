@@ -240,7 +240,7 @@ form
 {
 	position:relative;
 	float:left;
-	font-size:70%;
+	font-size:50%;
 	margin-bottom:0.8em;
 	
 }
@@ -262,7 +262,13 @@ form
 	position:relative;
 	float:left;
 	font-size:70%;
+	z-index: -1000;
 	
+}
+
+#navigation_container img 
+{
+	width:50%;
 }
 #navigation_container #prefix
 {
@@ -277,9 +283,28 @@ form
 	position:relative;
 	top:1em;
 	float:left;
+	right:10em;
 	font-size:50%;
 	
 	
+}
+#navigation_container #all_university
+{
+	float:left;
+	right:1.7em;
+
+
+	top:1.5em;
+}
+#nav_bar
+{
+	
+	max-width:30%;
+	min-width: 30%;
+	float:right;
+	line-height: 95%;
+	top:-3.2em;
+	padding:0px;
 }
 #nav_bar a
 {
@@ -291,11 +316,10 @@ form
 {
 	list-style:none;
 	position:relative;
-	display:inline;
-	background:none;
-	right:5em;
+	display:block;
+	border-bottom: 1px solid;
 	color:white;
-	max-width:1%;
+	max-width:100%;
 	margin:0%;
 	font-size: 15%;
 	height:auto;
@@ -305,16 +329,9 @@ form
 	
 }
 
-#nav_bar li:hover
-{
-	background:none;
-}
 
-#nav_bar a:hover
-{
-	background:transparent;
-	color:black;	
-}
+
+
 
 #main-text #summarize-ss
 {
