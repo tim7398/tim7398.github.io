@@ -211,13 +211,14 @@ form
 	min-width:100%;
 	height:43em;
 	float:left;
+	top:4em;
 	display:center;
 	
 }
 #navigation_container
 {
 
-	background:transparent;
+	background:white;
 	min-width:100%;
 	position:fixed;
 	z-index: 1000;
@@ -310,8 +311,8 @@ form
 	max-width:30%;
 	min-width: 30%;
 	float:left;
-	line-height: 80%;
-	top:-2.6em;
+	line-height: 99%;
+	top:-2.3em;
 	right:800px;
 	padding:0px;
 
@@ -452,22 +453,7 @@ padding-left:1em;
 	font-size:130%;
 		
 }
-#nav-bar 
-{
-		list-style: none;
-	min-width: 100%;
-	max-width:100%;
-	
-	background:rgba(3,96,172,1.0);
-	min-height:auto;
-	max-height:auto;
-	/*max-height: 4em;*/
-	position:relative;
-	margin:0;
-	right:20em;
-	text-align:center;
-	float:left;
-}
+
 form
 {
 	position:relative;
@@ -530,6 +516,10 @@ body{
 	position:relative;
 	top:6.7em;
 
+}
+#nav_bar
+{
+	top:0.5em;
 }
 	#navigation_container
 {

@@ -5,11 +5,11 @@ var main = function() {
   {
     counter = counter +1;
     $('#navigation_container').animate({
-      left: "6em"
+      left: "10em"
     }, 200);
     
     $('#nav_bar').animate(
-    {left:"-5em"}, 200);
+    {left:"-7em"}, 200);
   
   });
 
