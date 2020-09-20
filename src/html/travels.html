@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset= "utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../Leaflet.vector-markers/dist/Leaflet.vector-markers.css">
+  
+  <link rel="stylesheet" href="http://cdn.Leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<meta name="description" content= "Come learn more about me and the projects I have completed">
+	<meta name = "keywords" content="Computer Engineer, Tim, Tim Qin, Qin, Programming, Robotics">
+	<meta name="author" content="Tim Qin">
+	<title> Travels </title>
+	<link rel ="stylesheet" type = "text/css" href="../css/main.css"> 
+	<link href="http://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
+	<link rel="icon" href="favicon.ico?" type="image/x-icon">
+<link href="http://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body id = "second">
+<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');	
+		ga('create', 'UA-64413529-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+    
+    
+    <div id = "navigation_container">
+			<div id = "logo"> <a href="index.html">  Tim Qin</a> </div>
+<!-- add a hover color change -->
+			<ul id = "nav_bar"> 
+				<li>Projects
+                	<ul id="project"> <!-- drop down menu -->
+                    	<a href="https://github.com/tim7398/tim7398.github.io"><li> GitHub </li></a>
+                        <a href="#" ><li>  Recent Assignments</li></a>
+                    </ul>
+                
+                </li>
+				<li id = "about"> About 
+                	<ul id="about_drop">
+                    	<a href="WhoAmI.html"><li>  Who Am I?  </li></a>
+                    	<a href="travels.html"><li>  Travels </li></a>
+                    </ul>
+                </li>
+				<li id = "experience"> Experience 
+                	<ul id = "experience_drop"> 
+                    	<a href= "Work_Experience.html"><li> Employment History </li></a>
+                       <a href= "Programming_concepts.html"><li> What Do I Know?</li></a>
+                    </ul>
+                
+                </li>
+				<!-- <a href = "contact.html">--><li id = "contact" ><span id ="b"> Contact </span> <span id ="a"> Under Construction</span></li><!--</a>-->
+
+			</ul>	
+		</div>
+    
+        <div id = "main-text-travel">
+        <h1> <u>Travels</u> </h1>
+        <div id="map"></div>
+        
+  
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="../../Leaflet.vector-markers/dist/Leaflet.vector-markers.js"></script>
+         <script>
+    var map = L.map('map').setView([0, 0], 2);
+
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+      detectRetina: true
+    }).addTo(map);
+
+    L.marker([35.6895,139.6917], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#cb4b16'}) }).addTo(map);
+    L.marker([39.9042,116.4074], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#002b36', iconColor: '#eee8d5'}) }).addTo(map);
+    L.marker([31.2304,121.4737], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#eee8d5', iconColor: '#002b36'}) }).addTo(map);
+	L.marker([34.3416,108.9398], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#FF9933', iconColor: 'white'}) }).addTo(map);
+	
+	L.marker([1.3521,103.8198], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#cb4b16'}) }).addTo(map);
+    L.marker([36.6485,138.1942], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#002b36', iconColor: '#eee8d5'}) }).addTo(map);
+    L.marker([35.0116,135.7680], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#eee8d5', iconColor: '#002b36'}) }).addTo(map);
+	L.marker([-33.8675,151.2070], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#FF9933', iconColor: 'white'}) }).addTo(map);
+
+	L.marker([42.3601,-71.0589], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#cb4b16'}) }).addTo(map);
+    L.marker([40.7128,-74.0059], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#002b36', iconColor: '#eee8d5'}) }).addTo(map);
+    L.marker([45.2538,-69.4455], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#eee8d5', iconColor: '#002b36'}) }).addTo(map);
+	L.marker([41.6032,-73.0877], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#FF9933', iconColor: 'white'}) }).addTo(map);
+	
+	L.marker([39.9526,-75.1652], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#cb4b16'}) }).addTo(map);
+    L.marker([34.0522,-118.2437], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#002b36', iconColor: '#eee8d5'}) }).addTo(map);
+    L.marker([28.5383,-81.3792], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#eee8d5', iconColor: '#002b36'}) }).addTo(map);
+	L.marker([43.6532,-79.3832], {icon: L.VectorMarkers.icon({icon: 'plane', prefix: 'fa', markerColor: '#FF9933', iconColor: 'white'}) }).addTo(map);
+  </script>
+     
+         	<p> This interactive map shows the places I have traveled to so far. Hopefully I will be adding to this in the future.</p>
+            
+     </div>
+        </div>
+        
+        
+</body>
+</html>
